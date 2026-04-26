@@ -1,0 +1,4 @@
+Machine Learning is a feild of Artificail Intelligence that allows systems to learn from data. 
+Deep Learning is a subset of Machine Learning. 
+Neural Networks are inspired by the human brain. 
+ 
