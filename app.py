@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify, render_template  
+from pypdf import PdfReader 
 from sentence_transformers import SentenceTransformer 
 from transformers import pipeline 
 import numpy as np 
+from sklearn.metrics.pairwise import cosine_similarity 
 
 app = Flask(__name__) 
 
